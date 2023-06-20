@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+.container {
+    margin:80px auto;
+    max-width: 640px;
+    width:100%;
+}
+form {
+    margin-top: 120px;
+    max-width: 480px;
+}
+form h1 {
+    margin-bottom: 22px;
+    font-weight:bolder;
+    font-size:25px;
+}
+form label {
+    font-size:14px;
+}
+form input, button {
+    display: block;
+    padding:8px;
+    margin-bottom:8px;
+    width:100%;
+}
+button {
+    border:none;
+    border-radius: 1px solid black;
+    background-color: rgb(4, 185, 4);
+    cursor:pointer;
+    font-size: 16px;
+    width:100%;
+    color:#fff;
+}
+button:hover {
+    background-color:rgb(70, 255, 70);
+}
+label.error {
+    color: red;
+    font-weight: bold;
+}
+input.error {
+    border: 1px solid red;
+    background-color: #fdd;
+}
